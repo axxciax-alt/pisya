@@ -3,7 +3,7 @@ import os, json, time, pathlib, collections
 from flask import Flask, request, jsonify, render_template_string, session, redirect, url_for, abort, g
 
 ADMIN_LOGIN = "praroditel"
-ADMIN_PASS  = "Prarod"
+ADMIN_PASS  = "ثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثث"
 SESSION_SECRET = os.getenv("SESSION_SECRET", "dev-secret-change-me")
 
 app = Flask(__name__)
@@ -400,3 +400,4 @@ def forbidden(_e):
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8000, debug=True)
+
